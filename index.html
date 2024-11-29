@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/nubeLogo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INNOVATEProweb DEMO OCR</title>
+    <!-- Cargar OpenCV.js antes de cualquier otro script ya que React necesita que OpenCV.js esté listo antes de empezar a procesar las imágenes. -->
+    <script async src="https://cdn.jsdelivr.net/npm/opencv.js"></script>
+    <!-- Enlace a Google Fonts -->
+		<link rel="preload" href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" as="style">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" media="print" onload="this.media='all'">
+		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"></noscript>
+  </head>
+  <body class="bg-gradient-to-b from-blanco to-coral">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
