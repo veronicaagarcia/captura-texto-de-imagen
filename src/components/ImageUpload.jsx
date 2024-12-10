@@ -40,7 +40,7 @@
 //   );
 // }
 
-import { useState } from 'react'
+import { useState } from 'react';
 
 export function ImageUpload({ imageUpload }) {
   const [image, setImage] = useState(null)
