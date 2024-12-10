@@ -9,7 +9,9 @@ export default defineConfig({
     commonjsOptions: { 
       include: ['opencv.js'], 
       transformMixedEsModules: true,
-
     }, 
+    rollupOptions: {
+      external: ['react', 'react-dom'],
+    },
   },
 })
