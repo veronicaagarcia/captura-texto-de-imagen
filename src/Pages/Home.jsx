@@ -191,7 +191,7 @@
 // }
 
 import { useState, useEffect } from 'react'
-import { ImageUpload } from "../components/ImageUpload"
+import ImageUpload from '../components/ImageUpload'
 import { ImageCapture } from "../components/ImageCapture"
 import { ImageProcessing } from '../components/ImageProcessing'
 
